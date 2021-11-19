@@ -1,0 +1,6 @@
+module Pods_rnSaleProject {
+  umbrella header "Pods-rnSaleProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
