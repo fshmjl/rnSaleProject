@@ -3,12 +3,9 @@ import {
   StyleSheet,
   View,
   Text,
-  SafeAreaView,
-  StatusBar,
-  Platform,
   Dimensions,
 } from 'react-native';
-const Home = props => {
+const Home:React.FC<any> = (props) => {
   // const {navigation} = props;
   // if (navigation) {
   // }
