@@ -42,6 +42,7 @@ const App = () => {
           }
           return <Image source={iconName} style={{ width: size, height: size }} />;
         },
+        headerShown: route.name !== '首页',
         tabBarActiveTintColor: 'tomato',
         tabBarInactiveTintColor: 'gray',
       })}
